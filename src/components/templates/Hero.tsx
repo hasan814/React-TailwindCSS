@@ -1,13 +1,10 @@
 const Hero = () => {
   return (
-    <div className="pt-20">
-      <section
-        id="home"
-        className="h-screen flex justify-center items-center bg-gray-200"
-      >
-        <h1>Home</h1>
-      </section>
-    </div>
+    <section id="home" className="mt-32">
+      <h1 className="lg:text-6xl md:text-5xl text-4xl font-bold text-heading-text leading-tight">
+        want anything to easy with LasVPN
+      </h1>
+    </section>
   );
 };
 

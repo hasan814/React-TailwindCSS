@@ -4,11 +4,18 @@ import { navItems } from "../../utils/LinkHelper";
 import { NavItem } from "../../types";
 
 const Header = () => {
-  const { active, setActive, scrollHandler } = useContext(MyContext);
+  // ============= Context ===============
+  const context = useContext(MyContext);
+
+  if (!context) {
+    throw new Error("Header must be used within a MyContextProvider");
+  }
+
+  const { active, setActive, scrollHandler } = context;
 
   // ============= Rendering ===============
   return (
-    <header className="p-4 shadow-md bg-white fixed w-full top-0">
+    <header className="max-w-[1200px] mx-auto p-4 shadow-md bg-white fixed top-0 right-0 left-0">
       <nav className="flex justify-between items-center">
         <div className="text-2xl font-bold flex items-center gap-2">
           <img

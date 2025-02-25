@@ -7,14 +7,14 @@ import Pricing from "./components/templates/Pricing";
 
 const App = () => {
   return (
-    <>
+    <div className="max-w-[1200px] mx-auto">
       <Header />
       <Hero />
       <About />
       <Features />
       <Pricing />
       <Footer />
-    </>
+    </div>
   );
 };
 
