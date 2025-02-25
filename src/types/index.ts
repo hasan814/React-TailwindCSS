@@ -14,3 +14,10 @@ export interface NavItem {
   name: string;
   id: string;
 }
+
+
+export interface IStatItemProps {
+  icon: React.ElementType;
+  value: string;
+  label: string;
+}

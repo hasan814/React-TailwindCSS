@@ -1,9 +1,45 @@
 const Hero = () => {
   return (
-    <section id="home" className="mt-32">
-      <h1 className="lg:text-6xl md:text-5xl text-4xl font-bold text-heading-text leading-tight">
-        want anything to easy with LasVPN
-      </h1>
+    <section
+      id="home"
+      className="py-20 flex flex-col md:flex-row items-center gap-12"
+    >
+      <div className="md:w-1/2 mb-8 md:mb-0 space-y-8">
+        <h1 className="lg:text-6xl md:text-5xl text-4xl font-bold text-heading-text leading-tight">
+          Want anything to be <br className="lg:block hidden" /> easy with
+          LasVPN
+        </h1>
+        <p className="text-primary-text text-lg leading-relaxed max-w-xl">
+          Provide a network for all your needs with ease and fun using LasVPN
+          discover interesting features from us.
+        </p>
+        <button
+          className="
+          py-4 
+          px-12 
+          text-lg 
+          shadow-lg 
+        bg-primary 
+        text-white 
+          rounded-lg 
+          transition 
+          font-medium
+          duration-300 
+          hover:shadow 
+          cursor-pointer
+          hover:bg-red-600 
+        "
+        >
+          Get Started
+        </button>
+      </div>
+      <div className="md:w-1/2">
+        <img
+          src="/undraw_dev-productivity_5wps.svg"
+          alt="hero.png"
+          className="w-full"
+        />
+      </div>
     </section>
   );
 };
