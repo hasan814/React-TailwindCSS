@@ -1,4 +1,5 @@
 import GlobalNetwork from "./components/templates/GlobalNetwork";
+import Testimonial from "./components/templates/Testimonial";
 import Features from "./components/templates/Features";
 import Pricing from "./components/templates/Pricing";
 import Footer from "./components/layouts/Footer";
@@ -15,6 +16,7 @@ const App = () => {
       <Features />
       <Pricing />
       <GlobalNetwork />
+      <Testimonial />
       <Footer />
     </div>
   );
