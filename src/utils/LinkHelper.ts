@@ -4,3 +4,11 @@ export const navItems = [
   { name: "features", id: "features" },
   { name: "pricing", id: "pricing" },
 ];
+
+
+export const features = [
+  "Powerful online Protection.",
+  "Internet without borders.",
+  "Supercharged VPN.",
+  "No Specific time limits.",
+];
