@@ -21,3 +21,9 @@ export interface IStatItemProps {
   value: string;
   label: string;
 }
+
+export interface IPlanProps {
+  name: string;
+  price: string;
+  features: string[];
+};
