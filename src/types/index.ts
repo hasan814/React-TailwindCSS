@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import { IconType } from "react-icons";
 
 export interface IMyContextProps {
   active: string;
@@ -32,4 +33,10 @@ export interface IPlanProps {
 export interface IFooterLinksProps {
   title: string;
   links: string[];
+}
+
+export interface Stat {
+  icon: IconType;
+  value: string;
+  label: string;
 }
