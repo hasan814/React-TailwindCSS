@@ -27,3 +27,9 @@ export interface IPlanProps {
   price: string;
   features: string[];
 };
+
+
+export interface IFooterLinksProps {
+  title: string;
+  links: string[];
+}

@@ -6,6 +6,7 @@ import Footer from "./components/layouts/Footer";
 import Header from "./components/layouts/Header";
 import About from "./components/templates/About";
 import Hero from "./components/templates/Hero";
+import Subscribe from "./components/templates/Subscribe";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Pricing />
       <GlobalNetwork />
       <Testimonial />
+      <Subscribe />
       <Footer />
     </div>
   );

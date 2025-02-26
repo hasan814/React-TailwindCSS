@@ -1,6 +1,6 @@
 const Testimonial = () => {
   return (
-    <section className="py-20">
+    <section className="py-20" id="tesimonial">
       <div className="text-center mb-16">
         <h2 className="text-4xl font-bold text-heading-text mb-4 md:w-1/3 mx-auto">
           Trusted by Thousands of Happy Customers
